@@ -7,7 +7,6 @@ import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 
 import com.github.paolorotolo.appintro.AppIntro;
-import com.github.paolorotolo.appintro.AppIntroFragment;
 
 /**
  * Created by appty on 29/01/18.
@@ -25,6 +24,7 @@ public class IntroActivity extends AppIntro {
         Fragment fragment2 = new SecondFragment();
         Fragment fragment3 = new ThirdFragment();
         Fragment fragment4 = new FourthFragment();
+        Fragment fragment5 = new FifthFragment();
 
 
 
@@ -34,6 +34,8 @@ public class IntroActivity extends AppIntro {
         addSlide(fragment2);
         addSlide(fragment3);
         addSlide(fragment4);
+        addSlide(fragment5);
+
 
         // OPTIONAL METHODS
         // Override bar/separator color.

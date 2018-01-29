@@ -8,14 +8,14 @@ import android.view.View;
 import android.view.ViewGroup;
 
 /**
- * Created by appty on 29/01/18.
+ * Created by appty on 28/01/18.
  */
 
-public class ThirdFragment extends Fragment {
+public class FifthFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.third_fragment, container, false);
+        View rootView = inflater.inflate(R.layout.fifth_fragment, container, false);
         return rootView;
     }
 }

@@ -7,59 +7,31 @@
     android:background="#01579B"
     android:orientation="vertical">
 
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical"
-    android:layout_marginTop="50dp">
+
     <TextView
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="40dp"
-        android:text="No Internet!  No Problem!"
+        android:layout_marginTop="10dp"
+        android:text="You can change the section!"
         android:textColor="#fff"
         android:textSize="30dp"
-        android:textStyle="italic|bold" />
+        android:textStyle="italic|bold"
+        android:layout_weight="1"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <ImageView
+        android:layout_width="335dp"
+        android:layout_height="170dp"
         android:layout_gravity="center_horizontal"
-        android:text="You will see the latest "
-        android:textColor="#fff"
-        android:textSize="30dp"
-        android:layout_marginLeft="24dp"
-        android:layout_marginRight="24dp"
-        android:textStyle="italic|bold"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text=" loaded news from "
-        android:textColor="#fff"
-        android:textSize="30dp"
-        android:layout_marginLeft="24dp"
-        android:layout_marginRight="24dp"
-        android:textStyle="italic|bold"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text=" the database"
-        android:textColor="#fff"
-        android:textSize="30dp"
-        android:layout_marginLeft="24dp"
-        android:layout_marginRight="24dp"
-        android:textStyle="italic|bold"/>
-</LinearLayout>
+        android:layout_weight="1"
+        android:src="@drawable/screen_setting"
+        android:layout_marginBottom="16dp"/>
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="197dp"
-        android:src="@drawable/database"
-        android:layout_marginTop="36dp"/>
+        android:src="@drawable/section"
+        android:layout_weight="1"
+        android:layout_marginBottom="85dp"/>
 </LinearLayout>
