@@ -39,4 +39,5 @@
     <!-- Label for order-by magnitude option [CHAR LIMIT=20] -->
     <string name="settings_section_all_label">All</string>
     <string name="settings_section_all_value" translatable="false"></string>
+    <string name="new_app_name">News App</string>
 </resources>

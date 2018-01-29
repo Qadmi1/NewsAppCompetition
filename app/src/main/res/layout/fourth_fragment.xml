@@ -1,22 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#01579B"
+    android:orientation="vertical">
 
-    <ImageButton
-        android:id="@+id/imageButton"
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="50dp">
+    <TextView
+        android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_arrow_forward_white" />
-</android.support.constraint.ConstraintLayout>
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:text="No Internet!  No Problem!"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:textStyle="italic|bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="You will see the latest "
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:textStyle="italic|bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text=" loaded news from "
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:textStyle="italic|bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text=" the database"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:textStyle="italic|bold"/>
+</LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="197dp"
+        android:src="@drawable/database"
+        android:layout_marginTop="36dp"/>
+</LinearLayout>

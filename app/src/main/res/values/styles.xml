@@ -7,4 +7,14 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+
+    <style name="naming">
+        <item name="android:textSize">36sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="naming2">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
 </resources>

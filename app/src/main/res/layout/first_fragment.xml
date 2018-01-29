@@ -1,11 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/article_background">
+    android:background="#01579B"
+    android:orientation="vertical">
 
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This App was created by:"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        style="@style/naming"
+        android:layout_marginTop="36dp"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ahmad Alqadmi"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        style="@style/naming"
+
+
+        />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hussein Alghazali"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        style="@style/naming"
+
+        />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kamal Yahya"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        style="@style/naming" />
+</LinearLayout>
