@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Project6: News App</string>
+
+    <string name="no_Article">No Aticles found.</string>
+    <!-- Error message when there is no internet connectivity [CHAR LIMIT=NONE] -->
+    <string name="no_internet_connection">No internet connection.</string>
+
+    <string name="query_key" translatable="false">q</string>
+    <string name="query_search_vlue" translatable="false">science%20AND%20technology%20AND%20games</string>
+
+    <string name="show_tags_key" translatable="false">show-tags</string>
+    <string name="show_tags_vlue" translatable="false">contributor</string>
+
+    <string name="order_by_key" translatable="false">order-by</string>
+    <string name="order_by_vlue" translatable="false">newest</string>
+
+    <string name="api_key_key" translatable="false">api-key</string>
+    <string name="api_key_vlue" translatable="false">test</string>
+
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">Article Settings</string>
+
+    <string name="settings_section_label">Select a Section</string>
+    <string name="settings_section_key" translatable="false">section</string>
+    <string name="settings_section_default" translatable="false"></string>
+
+    <!-- Label for order-by magnitude option [CHAR LIMIT=20] -->
+    <string name="settings_section_science_label">Science</string>
+    <string name="settings_section_science_value" translatable="false">science</string>
+
+    <!-- Label for order-by most recent option [CHAR LIMIT=20] -->
+    <string name="settings_section_technology_label">Technology</string>
+    <string name="settings_section_technology_value" translatable="false">technology</string>
+
+    <!-- Label for order-by magnitude option [CHAR LIMIT=20] -->
+    <string name="settings_section_games_label">Games</string>
+    <string name="settings_section_games_value" translatable="false">games</string>
+
+    <!-- Label for order-by magnitude option [CHAR LIMIT=20] -->
+    <string name="settings_section_all_label">All</string>
+    <string name="settings_section_all_value" translatable="false"></string>
+</resources>

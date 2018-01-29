@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.alghazal.mohammed.hussein.project6newapp.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/settings_menu_item"
+        android:icon="@drawable/settings"
+        app:showAsAction="always"/>
+</menu>
